@@ -16,7 +16,7 @@
 
 [![NPM GRAPH2](https://nodei.co/npm/dado.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dado/)
 
-> __Dado__, Dado, a simple and dirty test runner.
+> __Dado__, a simple and dirty test runner.
 
 ###Install
 
