@@ -70,16 +70,17 @@ opt = {
 ```javascript
 /*
  * Run tests from specified directory, default value for path is 'test' (or './test').
- * Optionally, if Dado default position is not in 'node_modules', you can specify the relative
- * path from 'dado/lib' directory to the root dir of the module to test (default relative path is
- * '../../../').
- * The optional callback will be executed when all test files are executed, this function gets
- * 2 args/objs: queues for collected files and stats.
+ * Optionally, if Dado default position is not in 'node_modules', you can specify the
+ * relative path from 'dado/lib' directory to the root dir of the module to test
+ * (default relative path is * '../../../').
+ * The optional callback will be executed when all test files are executed, this function
+ * gets 2 args/objs: queues for collected files and stats.
  *
  * NOTE:
  * - Only files ending with '-test.js' are loaded from the specified path/dir.
- * - Every loaded file should exports a 'test' property/method that gets 2 arguments, an object
- *   with some methods for assertions and a done function for exiting from test.
+ * - Every loaded file should exports a 'test' property/method that gets 2 arguments,
+ *   an object with some methods for assertions and a done function for exiting from
+ *   test.
  */
 Dado#do : function ( String test_dir_path [, String module_relative_path [, Function callback ] ] ) : Dado
 
