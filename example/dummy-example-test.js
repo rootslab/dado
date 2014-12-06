@@ -1,5 +1,5 @@
 /*
- * an empty Dado test with syntax error to throw load error
+ * an empty Dado example
  */
 exports.test  = function ( done, assertions ) {
     var log = console.log
