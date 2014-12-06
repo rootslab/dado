@@ -1,5 +1,5 @@
 /*
- * an empty Dado example
+ * an empty Dado example test
  */
 exports.test  = function ( done, assertions ) {
     var log = console.log

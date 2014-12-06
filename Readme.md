@@ -82,7 +82,7 @@ opt = {
  *   an object with some methods for assertions and a done function for exiting from
  *   test.
  */
-Dado#do : function ( String test_dir_path [, String module_relative_path [, Function callback ] ] ) : Dado
+Dado#do : function ( String test_dir_path [, String module_relative_path [, Function callback ] ] ) : undefined
 
 /*
  * Reset global queues and stats objects.
