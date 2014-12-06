@@ -1,7 +1,8 @@
 var log = console.log
     , Dado = require( '../' )
-    , dado = Dado( {
-    } )
+    , dado = Dado( {} )
     ;
 
-log();
+log( '\n- run test from example dir:' );
+
+dado.do( 'example', '../' );

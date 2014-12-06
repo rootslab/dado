@@ -1,6 +1,6 @@
 {
   "name": "dado"
-  , "version": "0.1.3"
+  , "version": "0.1.4"
   , "description": "Dado, a simple and dirty test runner."
   , "homepage": "https://github.com/rootslab/dado"
   , "private": false
