@@ -1,20 +1,23 @@
 ### Dado
 
-[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/dado.svg?style=flat)](https://codeclimate.com/github/rootslab/dado)
-[![CODECLIMATE-TEST-COVERAGE](http://img.shields.io/codeclimate/coverage/github/rootslab/dado.svg?style=flat)](https://codeclimate.com/github/rootslab/dado)
+[![NPM VERSION](http://img.shields.io/npm/v/nprime.svg?style=flat)](https://www.npmjs.org/package/nprime)
+[![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg?style=flat)](https://www.codacy.com/public/44gatti/nprime)
+[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/nprime.svg?style=flat)](https://codeclimate.com/github/rootslab/nprime)
+[![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/nprime.svg?style=flat)](https://codeclimate.com/github/rootslab/nprime)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/nprime#mit-license)
 
-[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/dado#mit-license)
-[![GITTIP](http://img.shields.io/gittip/rootslab.svg?style=flat)](https://www.gittip.com/rootslab/)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/dado.svg?style=flat)](http://npm-stat.com/charts.html?package=dado)
+[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/nprime.svg?style=flat)](http://travis-ci.org/rootslab/nprime)
+[![BUILD STATUS](http://img.shields.io/david/rootslab/nprime.svg?style=flat)](https://david-dm.org/rootslab/nprime)
+[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/nprime.svg?style=flat)](https://david-dm.org/rootslab/nprime#info=devDependencies)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/nprime.svg?style=flat)](http://npm-stat.com/charts.html?package=nprime)
 
-[![NPM VERSION](http://img.shields.io/npm/v/dado.svg?style=flat)](https://www.npmjs.org/package/dado)
-[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/dado.svg?style=flat)](http://travis-ci.org/rootslab/dado)
-[![BUILD STATUS](http://img.shields.io/david/rootslab/dado.svg?style=flat)](https://david-dm.org/rootslab/dado)
-[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/dado.svg?style=flat)](https://david-dm.org/rootslab/dado#info=devDependencies)
+[![NPM GRAPH1](https://nodei.co/npm-dl/nprime.png)](https://nodei.co/npm/nprime/)
 
-[![NPM GRAPH1](https://nodei.co/npm-dl/dado.png)](https://nodei.co/npm/dado/)
+[![NPM GRAPH2](https://nodei.co/npm/nprime.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/nprime/)
 
-[![NPM GRAPH2](https://nodei.co/npm/dado.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dado/)
+[![status](https://sourcegraph.com/api/repos/github.com/rootslab/nprime/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/nprime)
+[![views](https://sourcegraph.com/api/repos/github.com/rootslab/nprime/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/nprime)
+[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/nprime/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/nprime)
 
 > __Dado__, a simple and dirty test runner.
 
@@ -79,8 +82,8 @@ opt = {
  * NOTE:
  * - Only files ending with '-test.js' are loaded from the specified path/dir.
  * - Every loaded file should exports a 'test' property/method that gets 2 arguments,
- *   an object with some methods for assertions and a done function for exiting from
- *   test.
+ *   an object with some methods for assertions and a done function that you should call
+ *   for properly exiting from the test.
  */
 Dado#do : function ( String test_dir_path [, String module_relative_path [, Function callback ] ] ) : undefined
 
@@ -92,7 +95,7 @@ Dado#reset : function () : Dado
 
 ### MIT License
 
-> Copyright (c) 2014 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
+> Copyright (c) 2015 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
 
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
