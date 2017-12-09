@@ -2,26 +2,22 @@
 
 [![NPM VERSION](http://img.shields.io/npm/v/dado.svg?style=flat)](https://www.npmjs.org/package/dado)
 [![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg?style=flat)](https://www.codacy.com/public/44gatti/dado)
-[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/dado.svg?style=flat)](https://codeclimate.com/github/rootslab/dado)
 [![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/dado.svg?style=flat)](https://codeclimate.com/github/rootslab/dado)
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/dado#mit-license)
 
+![NODE VERSION](https://img.shields.io/node/v/dado.svg)
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/dado.svg?style=flat)](http://travis-ci.org/rootslab/dado)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/dado.svg?style=flat)](https://david-dm.org/rootslab/dado)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/dado.svg?style=flat)](https://david-dm.org/rootslab/dado#info=devDependencies)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/dado.svg?style=flat)](http://npm-stat.com/charts.html?package=dado)
 
-[![NPM GRAPH1](https://nodei.co/npm-dl/dado.png)](https://nodei.co/npm/dado/)
+[![NPM MONTHLY](http://img.shields.io/npm/dm/dado.svg?style=flat)](http://npm-stat.com/charts.html?package=dado)
+![NPM YEARLY](https://img.shields.io/npm/dy/dado.svg)
 
-[![NPM GRAPH2](https://nodei.co/npm/dado.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dado/)
-
-[![status](https://sourcegraph.com/api/repos/github.com/rootslab/dado/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/dado)
-[![views](https://sourcegraph.com/api/repos/github.com/rootslab/dado/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/dado)
-[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/dado/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/dado)
+[![NPM GRAPH](https://nodei.co/npm/dado.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dado/)
 
 > __Dado__, a simple and dirty test runner.
 
-###Install
+### Install
 
 ```bash
 $ npm install dado [-g]
@@ -33,14 +29,14 @@ $ npm install dado [-g]
 var Dado  = require( 'dado' );
 ```
 
-###Run Tests
+### Run Tests
 
 ```bash
 $ cd dado/
 $ npm test
 ```
 
-###Constructor
+### Constructor
 
 ```javascript
 Dado( [ Object opt ] )
@@ -48,7 +44,7 @@ Dado( [ Object opt ] )
 new Dado( [ Object opt ] )
 ```
 
-####Options
+#### Options
 
 > Default options are listed.
 
@@ -57,7 +53,7 @@ opt = {
 }
 ```
 
-###Properties
+### Properties
 
 ```javascript
  /*
@@ -66,7 +62,7 @@ opt = {
  Dado.options : Object
 ```
 
-###Methods
+### Methods
 
 > Arguments within [ ] are optional.
 
@@ -95,7 +91,7 @@ Dado#reset : function () : Dado
 
 ### MIT License
 
-> Copyright (c) 2015 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
+> Copyright (c) 2015-present &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
 
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
@@ -115,5 +111,3 @@ Dado#reset : function () : Dado
 > CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 > SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[![GA](https://ga-beacon.appspot.com/UA-53998692-1/dado/Readme?pixel)](https://github.com/igrigorik/ga-beacon)
