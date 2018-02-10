@@ -1,37 +1,36 @@
 {
-  "name": "dado"
-  , "version": "0.3.1"
-  , "description": "Dado, a simple and dirty test runner."
-  , "homepage": "https://github.com/rootslab/dado"
-  , "private": false
-  , "repository": {
-    "type": "git"
-    , "url": "git://github.com/rootslab/dado.git"
-  }
-  , "keywords": [
-    "dado"
-    , "test runner"
-    , "util"
-  ]
-  , "author": {
-    "name": "Guglielmo Ferri"
-    , "email": "44gatti@gmail.com"
-  }
-  , "dependencies": {
-     "bolgia" : ">=2.7.4"
+  "name": "dado",
+  "version": "0.3.2",
+  "description": "Dado, a simple and dirty test runner.",
+  "homepage": "https://github.com/rootslab/dado",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rootslab/dado.git"
   },
-  "devDependencies": {
-  }
-  , "main": "index"
-  , "engines": {
+  "keywords": [
+    "dado",
+    "test runner",
+    "util"
+  ],
+  "author": {
+    "name": "Guglielmo Ferri",
+    "email": "44gatti@gmail.com"
+  },
+  "dependencies": {
+    "bolgia": ">=2.8.2"
+  },
+  "devDependencies": {},
+  "main": "index",
+  "engines": {
     "node": ">=0.10.x"
-  }
-  , "scripts": {
+  },
+  "scripts": {
     "test": "node test/run.js"
-  }
-  , "license": "MIT"
-  , "readmeFilename": "Readme.md"
-  , "bugs": {
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "bugs": {
     "url": "https://github.com/rootslab/dado/issues"
   }
 }
